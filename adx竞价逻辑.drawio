@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="1828" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1636" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -469,7 +469,7 @@
             <mxPoint x="630" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IHuyrZFiUmGlVzLmUUe--183" value="当一价、二价价格一致时&lt;div&gt;算的二价就是本身价格&lt;/div&gt;&lt;div&gt;不 + 1，也没有伪二价&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
+        <mxCell id="IHuyrZFiUmGlVzLmUUe--183" value="当一价、二价价格一致时&lt;div&gt;算的二价就是本身价格&lt;/div&gt;&lt;div&gt;不 + 1，也没有伪二价（一价逻辑）&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="2540" y="814.56" width="210" height="100" as="geometry" />
         </mxCell>
       </root>
