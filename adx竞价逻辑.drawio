@@ -472,13 +472,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IHuyrZFiUmGlVzLmUUe--183" value="当一价、二价价格一致时&lt;div&gt;算的二价就是本身价格&lt;/div&gt;&lt;div&gt;不 + 1，也没有伪二价（一价逻辑）&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="2740" y="814.56" width="210" height="100" as="geometry" />
+          <mxGeometry x="2730" y="650" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Fp8RKvop5yAZEBV8Ilwq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fp8RKvop5yAZEBV8Ilwq-1" target="IHuyrZFiUmGlVzLmUUe--141">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fp8RKvop5yAZEBV8Ilwq-3" value="一价 != 二价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fp8RKvop5yAZEBV8Ilwq-2">
           <mxGeometry x="-0.2226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fp8RKvop5yAZEBV8Ilwq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fp8RKvop5yAZEBV8Ilwq-1" target="IHuyrZFiUmGlVzLmUUe--113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2630" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2690" y="922" />
+              <mxPoint x="2690" y="862" />
+              <mxPoint x="1395" y="862" />
+              <mxPoint x="1395" y="922" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fp8RKvop5yAZEBV8Ilwq-5" value="一价 == 二价，走一价逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fp8RKvop5yAZEBV8Ilwq-4">
+          <mxGeometry x="-0.7002" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
