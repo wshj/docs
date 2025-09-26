@@ -327,8 +327,10 @@
         <mxCell id="IHuyrZFiUmGlVzLmUUe--137" value="原始出价&amp;nbsp;&lt;div&gt;&amp;gt;&lt;/div&gt;&lt;div&gt;底价&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="2315" y="775" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IHuyrZFiUmGlVzLmUUe--143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IHuyrZFiUmGlVzLmUUe--139" target="IHuyrZFiUmGlVzLmUUe--141" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IHuyrZFiUmGlVzLmUUe--143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IHuyrZFiUmGlVzLmUUe--139" target="Fp8RKvop5yAZEBV8Ilwq-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2630" y="922" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IHuyrZFiUmGlVzLmUUe--144" value="返点 &amp;gt;=&amp;nbsp;底价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IHuyrZFiUmGlVzLmUUe--143" vertex="1" connectable="0">
           <mxGeometry x="-0.4159" relative="1" as="geometry">
@@ -349,7 +351,7 @@
           <mxGeometry x="2335" y="882" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IHuyrZFiUmGlVzLmUUe--141" value="price" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="2455" y="1034.44" width="330" height="110" as="geometry" />
+          <mxGeometry x="2465" y="1034.44" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IHuyrZFiUmGlVzLmUUe--142" value="&lt;div&gt;dsp_fake_rate = 摇中的比例（未开、一二价同价，均为 0）&lt;/div&gt;dsp_real_win_price = 二价 + (一价-二价)*dsp_fake_rate + 1&lt;div&gt;dsp_win_price =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dsp_real_win_price*(1+返点比例)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;dsp_pay_price =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dsp_win_price*(1-返点比例)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;dsp_buff_price=&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dsp_real_win_price&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" parent="IHuyrZFiUmGlVzLmUUe--141" vertex="1">
           <mxGeometry y="26" width="330" height="84" as="geometry" />
@@ -470,7 +472,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IHuyrZFiUmGlVzLmUUe--183" value="当一价、二价价格一致时&lt;div&gt;算的二价就是本身价格&lt;/div&gt;&lt;div&gt;不 + 1，也没有伪二价（一价逻辑）&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="2540" y="814.56" width="210" height="100" as="geometry" />
+          <mxGeometry x="2740" y="814.56" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp8RKvop5yAZEBV8Ilwq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fp8RKvop5yAZEBV8Ilwq-1" target="IHuyrZFiUmGlVzLmUUe--141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp8RKvop5yAZEBV8Ilwq-3" value="一价 != 二价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fp8RKvop5yAZEBV8Ilwq-2">
+          <mxGeometry x="-0.2226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fp8RKvop5yAZEBV8Ilwq-1" value="一价 == 二价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="882" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
